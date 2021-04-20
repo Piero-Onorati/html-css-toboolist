@@ -8,7 +8,7 @@ body{
 /* header */
 
 header{
-    height: 100px;
+    padding: 20px;
     background-color: white;
 }
 
@@ -19,6 +19,7 @@ header{
 }
 
  h1{
+     vertical-align: middle;
     font-size: 60px; 
     display: inline;
 
@@ -35,20 +36,27 @@ header{
 }
 
 .top-container {
-    background-color: crimson;
-    height: 60px;
+    background-color:white;
     border-bottom: 3px solid #f6f8f9;
     border-radius: 5px;
 }
 
 .button-row{
-    margin-left: 60px;
-    background-color: darkorchid;
+    padding: 20px 50px 10px 60px;
 }
 
 .general-button{
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
+}
+
+.custom-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom-list li::before{
+    content: '\25BC' ;
 }
 
 .circle{
