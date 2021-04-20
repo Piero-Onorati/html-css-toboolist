@@ -88,6 +88,11 @@ header{
 
 /* task */
 
+
+.row-list{
+    padding: 5px 0;
+}
+
 h2{
     display: inline-block;
 }
