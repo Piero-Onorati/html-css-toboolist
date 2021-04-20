@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* header */
+
+header{
+    height: 100px;
+    background-color: white;
+}
+
+
+#logo{
+    height: 80px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+ h1{
+    font-size: 60px; 
+    display: inline;
+
+}
+
+
+
+
+
