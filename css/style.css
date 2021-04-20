@@ -4,6 +4,7 @@
 
 body{
     background-color: #f6f8f9;
+    font-family: 'Share Tech', sans-serif;
 }
 /* header */
 
@@ -80,10 +81,12 @@ header{
     padding-left: 60px;
     list-style: none;
     padding-left: 0;
+    padding-bottom: 20px;
 }
 
 .custom-list li::before{
     content: '\25BC' ;
+    color: #545860;
 }
 
 /* task */
@@ -95,6 +98,7 @@ header{
 
 h2{
     display: inline-block;
+    color: #545860;
 }
 
 .circle{
@@ -109,6 +113,7 @@ h2{
     line-height: 20px;
     font-size: 12px ;
     vertical-align: middle;
+    margin-right: 10px;
   }
 
 .done{
@@ -123,6 +128,8 @@ h2{
 
 .task-name{
     vertical-align: middle;
+    font-size: 18px;
+    color: #545860;
 }
 
 .tag{
