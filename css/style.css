@@ -107,6 +107,8 @@ h2{
     display: inline-block;
     text-align: center;
     line-height: 20px;
+    font-size: 12px ;
+    vertical-align: middle;
   }
 
 .done{
@@ -118,11 +120,17 @@ h2{
     color:red ;
     border-color: red;
 }
+
+.task-name{
+    vertical-align: middle;
+}
+
 .tag{
     color: white;
     padding: 5px 10px 5px 10px;
     border-radius: 25px;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .editorial{
