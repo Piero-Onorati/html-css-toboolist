@@ -52,7 +52,6 @@ header{
     padding: 5px 10px 5px 10px;
 }
 
-/* Task list */
 
 .add-task {
     background-color: #47adf1;
@@ -67,6 +66,7 @@ header{
     border: 1px solid lightgrey;
 }
 
+/* Task list */
 
 .custom-list{
     list-style: none;
@@ -77,16 +77,31 @@ header{
     content: '\25BC' ;
 }
 
+h2{
+    display: inline-block;
+}
+
 .circle{
     width: 20px;
     height: 20px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 25px;
-    border: 1px solid black;
+    border: 2px solid;
     display: inline-block;
+    text-align: center;
+    line-height: 20px;
   }
 
+.done{
+    color:#64c0a9 ;
+    border-color: #64c0a9;
+}
+
+.done{
+    color:red ;
+    border-color: red;
+}
 .tag{
     color: white;
     padding: 5px 10px 5px 10px;
