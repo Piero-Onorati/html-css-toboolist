@@ -28,8 +28,8 @@ header{
 .container{
 
     background-color: darkgreen;
-    height: 200px;
-    width: 60%;;
+    width: 60%;
+    height: 100%;
     margin: 50px auto;
     border-radius: 5px;
 }
@@ -38,6 +38,7 @@ header{
     background-color: crimson;
     height: 60px;
     border-bottom: 3px solid #f6f8f9;
+    border-radius: 5px;
 }
 
 .button-row{
@@ -50,6 +51,23 @@ header{
     padding: 5px 10px 5px 10px;
 }
 
+.circle{
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+    display: inline-block;
+  }
 
+.tag{
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
+    display: inline-block;
+}
 
-
+.editorial{
+    background-color: deepskyblue;
+}
