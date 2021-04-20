@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    margin: 0;
 }
 
 body{
@@ -12,7 +11,6 @@ header{
     height: 100px;
     background-color: white;
 }
-
 
 #logo{
     height: 80px;
@@ -28,10 +26,28 @@ header{
 
 /* div container */
 .container{
-    width: 60%;
-    background-color: white;
+
+    background-color: darkgreen;
+    height: 200px;
+    width: 60%;;
     margin: 50px auto;
     border-radius: 5px;
+}
+
+.top-container {
+    background-color: crimson;
+    height: 60px;
+    border-bottom: 3px solid #f6f8f9;
+}
+
+.button-row{
+    margin-left: 60px;
+    background-color: darkorchid;
+}
+
+.general-button{
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
 }
 
 
