@@ -53,6 +53,7 @@ header{
 }
 
 
+
 .add-task {
     background-color: #47adf1;
     color: white;
@@ -66,9 +67,17 @@ header{
     border: 1px solid lightgrey;
 }
 
+/* list-container */
+
+.list-container{
+    padding-left: 60px;
+}
+
+
 /* Task list */
 
 .custom-list{
+    padding-left: 60px;
     list-style: none;
     padding-left: 0;
 }
@@ -76,6 +85,8 @@ header{
 .custom-list li::before{
     content: '\25BC' ;
 }
+
+/* task */
 
 h2{
     display: inline-block;
