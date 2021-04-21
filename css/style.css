@@ -39,9 +39,7 @@ header{
 /* top-container */
 
 .top-container {
-    background-color:white;
     border-bottom: 3px solid #f6f8f9;
-    border-radius: 5px;
 }
 
 .button-row{
